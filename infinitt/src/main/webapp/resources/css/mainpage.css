@@ -798,7 +798,8 @@ progress {
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(-1 * var(--bs-gutter-y));
+  /* margin-top: calc(-1 * var(--bs-gutter-y)); */
+  margin-top: 45px;
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
@@ -11738,14 +11739,14 @@ img {
 
 .main_title_exhibitions h4 {
 
-  font-size: 3rem;
+  font-size: 50px;
   color: #fff;
 
 }
 
 .main_title_exhibitions p {
-  font-weight: 300;
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 20px;
   color: rgb(255, 210, 7);
   line-height: 28px;
 }

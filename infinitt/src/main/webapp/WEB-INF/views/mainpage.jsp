@@ -89,7 +89,7 @@
 
 
             <div class="container px-4 px-lg-5">
-                <div class="content-section-heading">
+                <div class="content-section-heading maintitleWrap">
                     
                     <!-- <h2 class="mb-5">What We Offer</h2> -->
                     <h2>What's&nbsp;New with&nbsp;INFINITT</h2>
