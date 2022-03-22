@@ -135,8 +135,8 @@ h2{
     width : 250px;
     height : 300px;
     margin-right: 25px;;
-    background-color: rgb(185, 185, 153);
-    
+    /* background-color: rgb(185, 185, 153); */
+    border : 1px solid #777;
     position : relative;
 
 }

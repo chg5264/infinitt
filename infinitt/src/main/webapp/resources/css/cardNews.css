@@ -6,7 +6,7 @@
 }
 
 html{
-	background-color : rgba(38, 38, 38, 0.7);
+	background-color : rgba(38, 38, 38, 0.4);
 	overflow: hidden;
 
 }
@@ -48,8 +48,8 @@ img{
 
 .prevPage{
 	
-	width : 50px;
-	height : 50px;
+	width : 35px;
+	height : 35px;
 
 	position : absolute;
 	top : 35px;
@@ -103,20 +103,17 @@ img{
 
 .container{
     display: flex;
-
-    width : 1000px;
-    margin : 0 auto;
-
-    border : 1px solid #888;
+	margin-left : 200px;
 
 }
 
 
 
 .cardNews{
-    width: 650px;
+    width: 600px;
     height: 88vh;
 	position : relative;
+	
 }
 
 
@@ -134,7 +131,7 @@ img{
 .card{
 	width : 100%;
 	height : 100%;
-	
+	border-radius : 7px 0 0 7px;
 	overflow : hidden;
 
 	
@@ -254,10 +251,8 @@ img{
 
 
 .chat{
-    width: 500px;
-    /* height: 700px; */
+    width: 420px;
     height: auto;
-
     border-left :1px solid #888; 
 }
 
@@ -400,17 +395,10 @@ img{
 }
 
 .F_btn:hover{
-    width: 50px;
-    height: 50px;
-
     background-color: #ffca2c;
     
     border : 1px solid #ffca2c;
     border-radius : 10px;
-    
-    padding : 4px 3px 0 0;
-    box-sizing : border-box;
-
 }
 
 
@@ -427,7 +415,8 @@ img{
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background: rgba(255, 255, 255, 0.25);
+            /* background: rgba(255, 255, 255, 0.25); */
+            background: rgba(22, 22, 22, 0.6);
             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
             backdrop-filter: blur(1.5px);
             -webkit-backdrop-filter: blur(1.5px);
@@ -438,8 +427,22 @@ img{
 
  }
  
-#modal .modal-window {
-     /* background: rgba( 255, 255, 0, 0.4 ); */
+ #modal .modal-window {
+     background: #fff;
+
+     border-radius: 10px;
+     border: 1px solid rgba( 255, 255, 255, 0.18 );
+     width: 200px;
+     height: 300px;
+     position: relative;
+     top: -100px;
+     padding: 10px;
+    
+
+}
+ 
+/* #modal .modal-window {
+     background: rgba( 255, 255, 0, 0.4 );
      background: rgba( 255, 202, 44, 0.8 );
      
      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -454,7 +457,7 @@ img{
      padding: 10px;
     
 
-}
+} */
 
 #modal .title {
     padding-left: 10px;
@@ -474,23 +477,32 @@ img{
    text-shadow: 1px 1px 2px gray;
    color: white;
 }
-        
+
 #modal .content {
+   margin-top: 40px;
+   padding: 0px 10px;
+   text-align : center;
+   color: #555;
+   font-size : 14px;
+}
+        
+/* #modal .content {
    margin-top: 20px;
    padding: 0px 10px;
    text-shadow: 1px 1px 2px gray;
    color: white;
-}
+} */
 
 
 #modal a{
-   color: white;
+   color: #555;
 }
 
 .content li{
    height : 30px;
    line-height : 30px;
    margin-bottom : 10px;
+   border-bottom : 1px solid rgba(255, 193, 7,0.7);
 }
 
 #modal a:hover, #modal .close-area:hover, .content li:hover{

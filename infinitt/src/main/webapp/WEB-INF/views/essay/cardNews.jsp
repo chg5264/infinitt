@@ -106,9 +106,9 @@
     
     <div id="modal" class="modal-overlay">
         <div class="modal-window">
-            <div class="title">
+            <!-- <div class="title">
                 <h2>List</h2>
-            </div>
+            </div> -->
             <div class="close-area">X</div>
             <ul class="content">
             	<c:if test="${login!=null}">
