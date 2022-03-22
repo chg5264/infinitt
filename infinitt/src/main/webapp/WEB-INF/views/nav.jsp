@@ -19,7 +19,7 @@
 			       <div class="welcome">
 			       
 			       		<c:if test="${login != null}">
-							<p>${login.id}님 환영 합니다.</p>
+							<p>${login.id} 님 환영 합니다.</p>
 							<li>
 								<a id="logout" onclick="location.href='/infinitt/logout'">logout</a>
 							</li>
