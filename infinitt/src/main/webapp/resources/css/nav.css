@@ -73,9 +73,9 @@ svg:not(:root).svg-inline--fa {
     height: 100%;
   }
   
-/*  .member{
-	margin : 10px 0;
-} */
+ .member{
+	margin : 20px 0 10px 0;
+}
 
 .welcome p{
 	margin: 1rem 10px;
@@ -97,7 +97,7 @@ svg:not(:root).svg-inline--fa {
     color: #333;
 	background: #FFD11F;
 	
-	margin-left : 40px;
+	margin-left : 50px;
 
 }
   
